@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+input {
+  margin: 10px;
+  height: 40px;
+  width: 300px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+}
+
+ul {
+  display: grid;
+  place-items: center;
+}
+
+li {
+    list-style-type: none;
+    width: 300px;
+    height: 40px;
+    background-color: cornflowerblue;
+    margin: 10px;
+    padding-top: 20px;
+    color: white;
+    font-family: monospace;
+    font-size: 23px;
+    border-style: inset;
+    border-width: thick;
+    border-color: white aquamarine aquamarine white;
+    border-radius: 20px;
+}
+
+#task {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
